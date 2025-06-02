@@ -312,7 +312,8 @@ GameObject:
   - component: {fileID: 1968008017}
   - component: {fileID: 1968008016}
   - component: {fileID: 1968008015}
-  - component: {fileID: 1968008014}
+  - component: {fileID: 1968008020}
+  - component: {fileID: 1968008019}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -320,24 +321,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1968008014
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1968008013}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14206df0109715448aac9d331ad1bcc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  myInt: 10
-  myFloat: 5.75
-  myDouble: 19.99
-  myBool: 1
-  myChar: 65
-  myString: Hello, Unity!
 --- !u!65 &1968008015
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -416,3 +399,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1968008019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968008013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ba3d93389e0453649acc0bbd78ea53af, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  names:
+  - Nghi
+  - Minh
+--- !u!114 &1968008020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1968008013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c37852a98e4e8f4896e9b4127f438e3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  day_of_week: 1
